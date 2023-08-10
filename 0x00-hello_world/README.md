@@ -1,0 +1,1 @@
+This project shows the various oaths it takes to compile a c file
