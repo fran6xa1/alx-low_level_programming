@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+/**
+ *main- This is a program that has a printf function
+ *
+ *Return: 0 (Successfully)
