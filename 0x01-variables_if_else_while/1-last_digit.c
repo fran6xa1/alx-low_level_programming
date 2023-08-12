@@ -15,10 +15,10 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	finaldigit = n % 10;
 	if (finaldigit > 5)
-		printf("the string and is greater than 5\n");
+		printf("finaldigit and is greater than 5\n");
 	else if (finaldigit == 0)
-		printf("the string and is equal to 0\n");
+		printf("finaldigit and is equal to 0\n");
 	else
-		printf("the string and is less than 6 and not 0\n");
+		printf("finaldigit and is less than 6 and not 0\n");
 	return (0);
 }
