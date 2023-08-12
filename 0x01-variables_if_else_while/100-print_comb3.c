@@ -6,17 +6,17 @@
  * Return: Always 0 (Success)
  */
 int main(void)
- {
-	int c;
-	int d;
+{
+	int i;
+	int j;
 
-	for (c = 29; c <= 37; c++)
+	for (i = 48; i <= 56; i++)
 	{
-		for (d = c + 1; d <= 38; d++)
+		for (j = i + 1; j <= 57; j++)
 		{
-			putchar(c);
-			putchar(d);
-			if (c == 29 && d == 38)
+			putchar(i);
+			putchar(j);
+			if (i == 48 && j == 57)
 				continue;
 			putchar(',');
 			putchar(' ');
