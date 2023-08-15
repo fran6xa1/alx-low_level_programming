@@ -6,30 +6,30 @@
  */
 int main(void)
 {
-    int i = 0;
+	int i = 0;
 
-    while (i < 100)
-    {
-        int j = 0;
-
-        while (j < 100)
+	while (i < 100)
 	{
-            if (i <= j)
-	    {
-                putchar((i / 10) + '0');
-                putchar((j % 10) + '0');
-                putchar(' ');
-                putchar((j / 10) + '0');
-                putchar((j % 10) + '0');
-                if (i < 99 || j < 99)
+		int j = 0;
+
+		while (j < 100)
 		{
-                    putchar(',');
-                    putchar(' ');
-                }
-            }
-            j++;
-        }
-        i++;
-    }
-    return 0;
+			if (i <= j)
+			{
+				putchar((i / 10) + '0');
+				putchar((j % 10) + '0');
+				putchar(' ');
+				putchar((j / 10) + '0');
+				putchar((j % 10) + '0');
+				if (i < 99 || j < 99)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			j++;
+		}
+		i++;
+	}
+	return (0);
 }
