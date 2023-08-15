@@ -12,7 +12,7 @@ int main(void)
 	{
 		int j = 0;
 
-		while (j <-= 99)
+		while (j <= 99)
 		{
 			if (i <= j)
 			{
