@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 /**
- *main- This program assigns a random number to the variable n
+ *main- This program prints the last value of an integer
  *
  *Return: Always 0 (Success)
  */
