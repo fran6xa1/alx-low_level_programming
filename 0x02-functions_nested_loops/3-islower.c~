@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * _islower - This is a function that checks for lower case letters
+ * @c: the integer is the argument
+ *
+ * return 1: if the character is lower case
+ * return 0: if teh character is upper case
+ */
+int _islower(int c)
+{
+	if (c >= 'a' && c <= 'z')
+	{
+		return (1); /*the charqacter is lower case*/
+	}
+	else
+	{
+		return (0); /*the character is not lower case*/
+	}
+}
