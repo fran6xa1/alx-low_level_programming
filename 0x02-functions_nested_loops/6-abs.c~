@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * _abs - This fnction prints the absolute value of a number
+ *@r : number targeted
+ *
+ * Return: 0
+ */
+int _abs(int r)
+{
+	if (r < 0)
+	{
+		return (-r);
+	}
+	else
+	{
+		return (0);
+	}
+}
