@@ -2,7 +2,7 @@
 *add - sums up two numbers
 *@a:first integer added
 *@b:second integer added
-
+*
 *Return: returns 0
 */
 int add(int a, int b)
