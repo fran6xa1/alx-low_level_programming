@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include "main.h"
+/**
+*print_to_98 - prints natural
+*numbers from n to 98
+*@m:integer to start by
+*return: returns nothing
+*/
+void print_to_98(int m)
+{
+	if (m >= 98)
+{
+	while (m > 98)
+		printf("%d, ", m--);
+	printf("%d\n", m);
+}
+	else
+{
+	while (m < 98)
+		printf("%d, ", m++);
+	printf("%d\n", m);
+}
+}
