@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- *positive_or_negative - this function checks if a program is positive or neg
- *@i: the number the check is performed on
- *
- *Return: 0 Always
- */
+*positive_or_negative - this function checks if a program is positive or neg
+*@i: the number the check is performed on
+*
+*Return: 0 Always
+*/
 void positive_or_negative(int i)
 {
 	if (i > 0)
