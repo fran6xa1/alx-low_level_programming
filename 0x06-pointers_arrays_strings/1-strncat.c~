@@ -1,0 +1,29 @@
+#include "main.h"
+
+/**
+*_strncat -This function concatenates two strings using an added input of byte
+*@dest: string being appended upon
+*@src: string completed at end of dest
+*@n: integer parameter tht index is compared to
+*
+* Return: New concatenated string
+*/
+char *_strncat(char *dest, char *src, int n)
+{
+	char *conclusion = dest;
+
+	while (*dest != '\0')
+	{
+		dest++;
+	}
+	while (*stc != '\0' && n > 0)
+	{
+		*dest = *src;
+		dest++;
+		src++;
+		n--;
+	}
+	*dest = '\0';
+
+	return (conclusion);
+}
