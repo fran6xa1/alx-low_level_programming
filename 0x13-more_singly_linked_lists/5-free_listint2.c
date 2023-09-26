@@ -11,7 +11,7 @@ void release_linked_list(listint_t **head)
 	listint_t *temp_node;
 	listint_t *current_node;
 
-	if (head)
+	if (head != NULL)
     {
 	    current_node = *head;
 	    while ((temp_node = current_node) != NULL)
