@@ -6,12 +6,12 @@
  *
  * Return: no return.
  */
-void release_linked_list(listint_t **head)
+void free_listint2(listint_t **head)
 {
 	listint_t *temp_node;
 	listint_t *current_node;
 
-	if (head != NULL)
+	if (head)
     {
 	    current_node = *head;
 	    while ((temp_node = current_node) != NULL)
